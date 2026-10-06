@@ -1,9 +1,8 @@
-from gravity import GravitySim
-from ssh import SSH_Manager
+from app import App
 
 def main():
-    ssh_manager = SSH_Manager()
-    gravity_sim = GravitySim()
+    app = App()
+    app.Run()
 
 if __name__ == '__main__':
     main()
